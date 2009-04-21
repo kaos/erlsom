@@ -1,0 +1,27 @@
+/.cvsignore/1.1/Sun Mar 30 13:01:31 2008//
+/Makefile/1.8/Sun Mar 30 13:01:30 2008//
+/erlsom.app.src/1.2/Tue Nov 13 19:46:16 2007//
+/erlsom.erl/1.4/Sun Mar 30 13:01:30 2008//
+/erlsom.hrl/1.2/Sun Mar 30 13:01:30 2008//
+/erlsom_add.erl/1.3/Sun Mar 30 13:01:30 2008//
+/erlsom_compile.erl/1.4/Sun Mar 30 13:01:30 2008//
+/erlsom_compile.hrl/1.4/Sun Mar 30 13:01:30 2008//
+/erlsom_lib.erl/1.4/Sun Mar 30 13:01:30 2008//
+/erlsom_parse.erl/1.4/Sun Mar 30 13:01:30 2008//
+/erlsom_parse.hrl/1.4/Sun Mar 30 13:01:30 2008//
+/erlsom_parseXsd.erl/1.4/Sun Mar 30 13:01:30 2008//
+/erlsom_pass2.erl/1.5/Sun Apr  6 16:27:07 2008//
+/erlsom_sax.erl/1.4/Sun Mar 30 13:01:31 2008//
+/erlsom_sax.hrl/1.2/Sun Mar 30 13:01:31 2008//
+/erlsom_sax_latin1.erl/1.2/Sun Apr  6 16:27:07 2008//
+/erlsom_sax_lib.erl/1.1/Sun Mar 30 13:01:31 2008//
+/erlsom_sax_list.erl/1.2/Sun Apr  6 16:27:07 2008//
+/erlsom_sax_utf16be.erl/1.2/Sun Apr  6 16:27:07 2008//
+/erlsom_sax_utf16le.erl/1.2/Sun Apr  6 16:27:08 2008//
+/erlsom_sax_utf8.erl/1.2/Sun Apr  6 16:27:08 2008//
+/erlsom_simple_form.erl/1.2/Sun Apr  6 16:27:08 2008//
+/erlsom_ucs.erl/1.2/Sun Mar 30 13:01:31 2008//
+/erlsom_write.erl/1.4/Sun Mar 30 13:01:31 2008//
+/erlsom_writeHrl.erl/1.4/Sun Mar 30 13:01:31 2008//
+/ucs.erl/1.1/Sun Nov 26 09:39:45 2006//
+D
