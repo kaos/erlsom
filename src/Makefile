@@ -39,7 +39,7 @@ clean:
 
 install: all
 	$(INSTALL) -m 755 -d $(DESTDIR)/$(APPDIR)/include
-	$(INSTALL) -m 644 ../include/* $(DESTDIR)/$(APPDIR)/include
+	$(INSTALL) -m 644 ../include/*.hrl $(DESTDIR)/$(APPDIR)/include
 	$(INSTALL) -d $(DESTDIR)/$(APPDIR)/ebin;
 	cd ..; cp -r ebin $(DESTDIR)$(APPDIR)/
 

@@ -75,6 +75,7 @@ continueFun(Head, T, State, ParseFun) ->
     (State#erlsom_sax_state.continuation_fun)(T, State#erlsom_sax_state.continuation_state),
   case Tail of 
     T -> throw({error, "Malformed: Unexpected end of data"});
+      suspend -> {[], State#erlsom_sax_state{continuation_state = ContinuationState2}};
     _ -> 
       ParseFun(Head, Tail, 
         State#erlsom_sax_state{continuation_state = ContinuationState2})
@@ -95,6 +96,7 @@ continueFun(T, State, ParseFun) ->
     (State#erlsom_sax_state.continuation_fun)(T, State#erlsom_sax_state.continuation_state),
   case Tail of 
     T -> throw({error, "Malformed: Unexpected end of data"});
+      suspend -> {State#erlsom_sax_state{continuation_state = ContinuationState2}, suspend};
     _ -> 
       ParseFun(Tail, 
         State#erlsom_sax_state{continuation_state = ContinuationState2})
